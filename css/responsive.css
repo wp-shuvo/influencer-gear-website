@@ -1,0 +1,102 @@
+/* For mobile device responsive */
+@media screen and (max-width:576px) {
+ /* header area */
+ /* nav area */
+.main-nav-area {
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.main-nav-area h2{
+  margin-bottom: 20px;
+}
+.nav-item li{
+  margin: 8px;
+}
+/* banner area */
+.banner{
+  margin: 20px;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.banner-left-arae{
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.banner-left-arae h1{
+  font-size: 2.25em;
+}
+.banner-image-area{
+  background: none;
+}
+/* logo arae */
+.logo-area{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-self: center;
+}
+.products-area{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 30px;
+}
+}
+
+
+/* For tablet device responsive */
+
+@media screen and (min-width:576px) and (max-width:992px){
+   /* header area */
+    /* nav area */
+.main-nav-area {
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 35px;
+}
+.main-nav-area h2{
+  margin-bottom: 20px;
+}
+.banner{
+  margin: 20px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.banner-left-arae{
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.banner-left-arae h1{
+  font-size: 2.25em;
+}
+.banner-image-area{
+  background-image: cover;
+  margin-bottom: 35px;
+}
+.logo-area{
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+}
+.products-area{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 30px;
+}
+}
+
+
+/* For larger then tablet device responsive */
+@media screen and (min-width:992px) and (max-width:1440px){
+
+
+}

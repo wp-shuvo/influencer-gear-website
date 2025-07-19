@@ -1,0 +1,177 @@
+:root{
+  --gray: #3A3A3A;
+  --white: #fff;
+  --pink: #E02C6D;
+}
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+/* share style */
+
+.display-flex{
+  display: flex;
+}
+
+/* header area style */
+
+/* nav area style */
+
+.main-nav-area{
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 120px 50px 120px;
+}
+.main-nav-area h2{
+  color: var(--gray);
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-item li{
+  list-style: none;
+  margin-left: 34px;
+}
+.nav-item li a{
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+}
+.nav-item li a:hover{
+  color: var(--pink);
+}
+
+/* banner area style */
+.banner{
+  margin: 0 120px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-left-arae{
+  max-width: 580px;
+}
+.banner-left-arae h1{
+  color: var(--gray);
+  font-size: 3.25em;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.banner-left-arae p{
+  color: var(--gray);
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.banner-left-arae button{
+  background: var(--pink);
+  color: var(--white);
+  font-size: 1em;
+  font-weight: 700;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 25px;
+  transition: .1s;
+}
+.banner-left-arae button:hover{
+  background: var(--white);
+  color: var(--pink);
+  font-size: 1.3em;
+  border: 2px solid var(--pink);
+  transform: color;
+}
+
+.banner-image-area{
+  background-image: url(../images/Circle-design.svg);
+  background-repeat:no-repeat;
+}
+
+/*  main section style */
+/* logo area style */
+.logo-area{
+   margin: 100px 165px ;
+}
+.logo-area{
+  justify-content: center;
+  gap: 61px;
+  padding: 35px 61px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+ 
+}
+.logo-area img{
+  transition: transform .2s;
+}
+.logo-area img:hover{
+  transform: scale(1.5);
+}
+
+/*  Popular Collection area style */
+
+.collections{
+  margin: 0 auto;
+  max-width: 1060px;
+}
+.collections h3{
+  color: var(--gray);
+  font-size: 1.75em;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.products-area{
+  margin-bottom: 100px;
+}
+
+.product{
+  padding: 17px 15px;
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.5);
+  border-radius: 10px;
+  max-width: 329px;
+}
+.product-text h4{
+  font-size: 1.75em;
+  font-weight: 500;
+}
+.product-text p{
+  font-size: .87em;
+  font-weight: 700;
+  color: var(--gray);
+}
+.product-text span{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #000;
+}
+.product-text span:hover{
+  color: #FB8200;
+}
+.review{
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.review span{
+  font-size: 1em;
+  color: #5e6366;
+  font-weight: 700;
+}
+.review .star{
+  color: #FB8200;
+  font-size: .8em;
+}
+
+.products-area{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  gap: 30px;
+}
