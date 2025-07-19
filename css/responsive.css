@@ -14,12 +14,14 @@
   margin: 8px;
 }
 /* banner area */
-.banner{
+.banner,
+.features{
   margin: 20px;
   flex-direction: column-reverse;
   justify-content: center;
 }
-.banner-left-arae{
+.banner-left-arae,
+.right-area-text{
   text-align: center;
   margin-bottom: 30px;
   
@@ -61,13 +63,15 @@
 .main-nav-area h2{
   margin-bottom: 20px;
 }
-.banner{
+.banner,
+.features{
   margin: 20px;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
 }
-.banner-left-arae{
+.banner-left-arae,
+.right-area-text{
   text-align: center;
   margin-bottom: 30px;
   
@@ -94,9 +98,3 @@
 }
 }
 
-
-/* For larger then tablet device responsive */
-@media screen and (min-width:992px) and (max-width:1440px){
-
-
-}

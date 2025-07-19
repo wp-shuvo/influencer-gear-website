@@ -127,7 +127,7 @@ body{
   text-align: center;
 }
 .products-area{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .product{
@@ -175,3 +175,73 @@ body{
   align-content: center;
   gap: 30px;
 }
+#see-more{
+  text-align: center;
+  color: hsla(338, 74%, 53%, 0.703);
+  font-size: .8em;
+  font-weight: 700;
+  margin-bottom: 100px;
+  transition: .2s;
+}
+#see-more:hover{
+  color: hsl(338, 74%, 53%);
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Feature Section style */
+#btn-join-now{
+  background: var(--pink);
+  color: var(--white);
+  font-size: 1em;
+  font-weight: 700;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  transition: .2s;
+}
+#btn-join-now:hover{
+  background: var(--white);
+  color: var(--pink);
+  border: 2px solid var(--pink);
+}
+
+.features{
+  max-width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 100px;
+}
+.right-area-text h2{
+  font-size: 2.375em;
+  font-weight: 700;
+  color: #0A0826;
+  margin-bottom: 16px;
+}
+.features .right-area-text p{
+  font-size: 1em;
+  font-weight: 700;
+  color: #6c6c6ccf;
+  margin-bottom: 16px;
+}
+
+/* footer area style */
+footer{
+  width: 100%;
+  background-color: #0A0826;
+  text-align: center;
+  padding: 50px 0 ;
+  color: var(--white);
+}
+footer h5{
+  font-size: 24px;
+  font-weight: 700;
+}
+footer icon-set i{
+  display: block;
+  margin: 20px;
+}
+
+
